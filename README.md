@@ -28,6 +28,21 @@ HireFlow is a modern full-stack job portal that connects job seekers with compan
 - Auth: JWT + bcryptjs
 - UI: Responsive custom CSS
 
+## 🖥️ UI Experience
+
+The frontend is built for the HireFlow job portal and includes these repository-specific screens:
+
+- **Home page:** Modern hero section, job search, featured opportunities, hiring call-to-action, and responsive navigation.
+- **Job listing page:** Search by role, skill, company, location, and job type with filtering and empty states.
+- **Job details page:** Role summary, salary, work style, skills, company information, and candidate application flow.
+- **Authentication screens:** Login and registration forms for candidate and recruiter accounts.
+- **Candidate dashboard:** Application history with status pills and tracking information.
+- **Recruiter dashboard:** Application statistics, recent applicant table, and application status management.
+- **Recruiter posting form:** Job title, company, location, employment type, work style, salary, description, and skills.
+- **Responsive design:** Mobile navigation, responsive job cards, filter controls, tables, forms, and dashboard layouts.
+
+The UI uses the existing HireFlow branding, colors, and custom CSS; it does not depend on a copied design from another repository.
+
 ## 🏗️ Project Structure
 
 ```text
@@ -97,7 +112,7 @@ start.bat
 ## 🔐 Demo Credentials
 
 ### Recruiter
-- Email: recruiter@careerhub.local
+- Email: recruiter@hireflow.local
 - Password: recruiter123
 
 ### Candidate
